@@ -41,7 +41,7 @@ h3::selection{
     background-color: #00ff7b;
     color: #000000;
 }
-/*--------------------------------HEADER NUEVO----------------*/
+/*------------------------------HEADER NUEVO----------------*/
 header{
     background: linear-gradient(#ea00c3, #5f0054 70%);
     position: sticky;
