@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 0 0 1px #959595;
+  box-sizing: border-box;
+}
+body p::selection {
+  background-color: #ff9100;
+  color: #000000;
+}
+
+/*# sourceMappingURL=doblestyles.css.map */
