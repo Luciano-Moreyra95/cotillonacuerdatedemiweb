@@ -17,4 +17,64 @@ body p::selection {
   color: #000000;
 }
 
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 1rem solid #000000;
+  gap: 10px;
+  grid-auto-rows: auto;
+  grid-template-areas: "izquierda medio derecha";
+}
+footer h1 {
+  font-size: 1.5rem;
+  margin: 10px;
+  text-shadow: 0 0 5px #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+footer p {
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+.footermedio {
+  grid-area: medio;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footermedio h2 {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 1.8em;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 8px #707070;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footermedio a img {
+  width: 10vh;
+  height: 10vh;
+  margin: 2vh;
+}
+
+.footerderecha {
+  grid-area: derecha;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerizquierda {
+  grid-area: izquierda;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=doblestyles.css.map */

@@ -1,0 +1,38 @@
+//*? VARIABLES
+$color-principal: #00ffaa;
+$color-secundario: #ea00c3;
+$color-terciario: #5f0054;
+$color-cuarto: #ffbb00;
+
+//*? LISTAS
+//*? Se llaman con nth($colores,2);
+$colores: black, white;
+
+
+//*? EXTENDS
+//*? Se llaman con @extend %boton
+%boton{
+    background-color: #00ff7b;
+    border: solid black 2px;
+    color: black;
+}
+
+//*?MIXIN
+//*podemos trabajar con variables o valores vacíos que luego podré rellenar
+//*?pARA LLAMARLOS se debe hacer con @include flex
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//*?ejemplo de mixin
+//*? .contenedor{
+//*?     @include flex (flex, center, center);
+//*?}
+//*?
+//*? .contenedor-2{
+//*?     @include flex(flex, space around,center)
+//*?}
+//*?DATO IMPORTANTE: HAY QUE LLAMARLOS EN EL MISMO ORDEN Y DECLARARLOS SÍ O SÍ, NO SE DEBEN SALTAR
+
