@@ -1,1 +1,40 @@
-/*------HEADER*/
+//*? -------HEADER-------
+header{
+    background: linear-gradient(#ea00c3, #5f0054 70%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    nav ul li a{
+        color: #ffffff !important;
+        transition: 1s !important;
+        &:hover{
+        text-shadow: 10px 10px 12px #ffffff;
+        }
+    }
+}   
+.navbar-brand{
+    color: #00ffaa;
+    font-size: 1.8em;
+    transition: 1s;
+}
+.navbar-brand:hover{
+    color: #ffbb00;
+}
+.dropdown-item{
+    color: #000000 !important;
+}
+.dropdown-item:hover{
+    text-shadow: 4px 4px 10px #898989;
+}
+.btn-outline-success{
+    color: #000000;
+    transition: 1s;
+    border: 1px solid rgb(0, 198, 122);
+    border-radius: 5px 25px;
+    background-color: #00ffaa;
+    box-shadow: 2px 2px 7px #00000090;
+}
+.btn-outline-success:hover{
+    background-color: #ffbb00;
+    color: #000000;
+}
