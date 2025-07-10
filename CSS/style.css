@@ -293,9 +293,6 @@ footer p{
     flex-direction: column;
 }
 
-
-
-
 /*Contacto*/
 .formulario {
     width: 300px;
@@ -320,9 +317,7 @@ footer p{
     text-transform: uppercase;
     background-color: rgb(93, 0, 112);
     color: white;
-
 }
-
 /*-----------------------------------RESPONSIVE-----------*/
 @media screen and (max-width:1100px){
 

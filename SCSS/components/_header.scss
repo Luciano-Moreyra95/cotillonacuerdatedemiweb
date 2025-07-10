@@ -8,8 +8,10 @@ header{
         color: #ffffff !important;
         transition: 1s !important;
         &:hover{
-        text-shadow: 10px 10px 12px #ffffff;
+        text-shadow: 4px 4px 6px #ffffff;
+        transform: scale(1.1);
         }
+        
     }
 }   
 .navbar-brand{
@@ -19,6 +21,7 @@ header{
 }
 .navbar-brand:hover{
     color: #ffbb00;
+    transform: scale(1.05);
 }
 .dropdown-item{
     color: #000000 !important;

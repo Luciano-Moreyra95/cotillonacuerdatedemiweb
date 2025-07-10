@@ -39,6 +39,10 @@ footer{
         width: 10vh;
         height: 10vh;
         margin: 2vh;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.4);
+        }
     }
 }
 .footerderecha{
