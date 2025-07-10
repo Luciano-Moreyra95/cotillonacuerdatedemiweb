@@ -151,6 +151,27 @@ aside{
     }
 }
 /*Contacto*/
+.contacto-page{
+    h2{
+        text-align: center;
+        font-size: 2.5rem;
+        background-color: #00000095;
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition: 1s;
+        &:hover{
+            filter: drop-shadow(4px 4px 2px #828282);
+            color: nth($colores, 3);
+        }
+    }
+    p{
+        text-align: start;
+        margin: 10px;
+        font-size: 1rem;
+        color: #000000;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
 .formulario{
     width: 300px;
     padding: 30px

@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #000000;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   font-family: "Josefin Sans", sans-serif;
   text-shadow: 0 0 1px #959595;
   box-sizing: border-box;
@@ -235,6 +235,26 @@ aside a img:hover {
 }
 
 /*Contacto*/
+.contacto-page h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5843137255);
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  transition: 1s;
+}
+.contacto-page h2:hover {
+  filter: drop-shadow(4px 4px 2px #828282);
+  color: #ffbb00;
+}
+.contacto-page p {
+  text-align: start;
+  margin: 10px;
+  font-size: 1rem;
+  color: #000000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
 .formulario {
   width: 300px;
   padding: 30px;
@@ -263,6 +283,8 @@ aside a img:hover {
 }
 
 footer {
+  background-color: #000000;
+  color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   border: 1rem solid #000000;
@@ -316,6 +338,9 @@ footer p {
   justify-content: start;
   align-items: center;
   flex-direction: column;
+}
+.footerderecha a {
+  color: #00ffaa;
 }
 
 .footerizquierda {
