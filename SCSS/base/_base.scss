@@ -32,3 +32,38 @@ body{
         }
     }
 }
+#carouselExampleIndicators{
+    grid-area: carrousel;
+    height: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr; //*? Acá definimos el tamaño de las columnas de la primer fila
+    grid-template-rows: auto; //*? Define 3 filas que se ajustan al contenido
+    grid-template-areas:
+    "aside carrousel"
+}
+
+.card{
+    width: 30vh;
+    margin: 5px;
+    transition: 0.5s;
+}
+.card img{
+    height: 20vh;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px #7a7a7a;
+}
+.card-title{
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px;
+}
+.card p{
+    font-size: 1.5rem;
+}
+.pcuotas{
+    font-size: 0.7rem !important;
+    text-align: center;
+}

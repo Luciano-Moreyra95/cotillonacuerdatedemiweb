@@ -1,3 +1,9 @@
+.boton-video {
+  background-color: #00ff7b;
+  border: solid black 2px;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +28,47 @@ body h2::selection {
 body h3::selection {
   background-color: #00ff7b;
   color: #000000;
+}
+
+#carouselExampleIndicators {
+  grid-area: carrousel;
+  height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: auto;
+  grid-template-areas: "aside carrousel";
+}
+
+.card {
+  width: 30vh;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+.card img {
+  height: 20vh;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px #7a7a7a;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.card p {
+  font-size: 1.5rem;
+}
+
+.pcuotas {
+  font-size: 0.7rem !important;
+  text-align: center;
 }
 
 header {
@@ -70,18 +117,6 @@ header nav ul li a:hover {
 .btn-outline-success:hover {
   background-color: #ffbb00;
   color: #000000;
-}
-
-#carouselExampleIndicators {
-  grid-area: carrousel;
-  height: 100%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  grid-template-rows: auto;
-  grid-template-areas: "aside carrousel";
 }
 
 aside {
@@ -146,35 +181,6 @@ aside a img:hover {
 }
 .hero a {
   font-size: 0.8rem;
-}
-
-.card {
-  width: 30vh;
-  margin: 5px;
-  transition: 0.5s;
-}
-
-.card img {
-  height: 20vh;
-}
-
-.card:hover {
-  box-shadow: 2px 2px 10px #7a7a7a;
-}
-
-.card-title {
-  text-align: center;
-  font-size: 1rem;
-  margin: 5px;
-}
-
-.card p {
-  font-size: 1.5rem;
-}
-
-.pcuotas {
-  font-size: 0.7rem !important;
-  text-align: center;
 }
 
 .content {
@@ -282,6 +288,39 @@ aside a img:hover {
   color: white;
 }
 
+.nosotros h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5843137255);
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  transition: 1s;
+}
+.nosotros h2:hover {
+  filter: drop-shadow(4px 4px 2px #828282);
+  color: #ffbb00;
+}
+.nosotros p {
+  text-align: center;
+  margin: 10px;
+  font-size: 1rem;
+  color: #000000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.boton-video a {
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000000;
+  font-weight: 500;
+  color: #000000;
+  transition: 1s;
+}
+.boton-video a:hover {
+  color: #f051f0;
+}
+
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -349,6 +388,9 @@ footer p {
   justify-content: start;
   align-items: center;
   flex-direction: column;
+}
+.footerizquierda a {
+  color: #00ffaa;
 }
 
 /*-----------------------------------RESPONSIVE-----------*/
